@@ -9,7 +9,7 @@
 					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Grass" ID="{85EB8698-E13E-48E1-BF9B-9CD2665ED5AB}"/>
-						<Switch Name="Gravel" ID="{8516E5C2-0D2D-464B-9552-9C6F24A2807A}"/>
+						<Switch Name="Dirt" ID="{8516E5C2-0D2D-464B-9552-9C6F24A2807A}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

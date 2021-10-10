@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat/FanGameMortalKombat_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat/FanGameMortalKombat_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat/FanGameMortalKombat_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat_WwiseProject/MK_WWise_Project/</ProjectRoot>
+		<SourceFilesRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat_WwiseProject/MK_WWise_Project/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat_WwiseProject/MK_WWise_Project/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat/FanGameMortalKombat_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/FanGameMortalKombat_WwiseProject/MK_WWise_Project/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,44 +16,44 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1615758161" Language="SFX" Hash="4052227369">
+		<SoundBank Id="1615758161" Language="SFX" Hash="2204913967">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainWorldSoundbank</ObjectPath>
 			<ShortName>MainWorldSoundbank</ShortName>
 			<Path>MainWorldSoundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\MainCharacterEvents\Footsteps" DurationType="OneShot" DurationMin="0.131080" DurationMax="0.646833">
+				<Event Id="1712852617" Name="PlayFootstep" ObjectPath="\Events\MainCharacterEvents\PlayFootstep" DurationType="OneShot" DurationMin="0.131080" DurationMax="0.363023">
 					<IncludedMemoryFiles>
 						<File Id="39946139" Language="SFX">
 							<ShortName>Footsteps_Gravel_M_004.wav</ShortName>
-							<Path>SFX/Footsteps_Gravel_M_004_C3DC9F41.wem</Path>
+							<Path>SFX/Footsteps_Gravel_M_004_43EADB1D.wem</Path>
 						</File>
 						<File Id="54966914" Language="SFX">
 							<ShortName>Footsteps_Gravel_M_001.wav</ShortName>
-							<Path>SFX/Footsteps_Gravel_M_001_C3DC9F41.wem</Path>
+							<Path>SFX/Footsteps_Gravel_M_001_43EADB1D.wem</Path>
 						</File>
 						<File Id="93354915" Language="SFX">
 							<ShortName>Footsteps_Grass_M_003.wav</ShortName>
-							<Path>SFX/Footsteps_Grass_M_003_138726D9.wem</Path>
+							<Path>SFX/Footsteps_Grass_M_003_B570D635.wem</Path>
 						</File>
 						<File Id="262855682" Language="SFX">
 							<ShortName>Footsteps_Gravel_M_003.wav</ShortName>
-							<Path>SFX/Footsteps_Gravel_M_003_C3DC9F41.wem</Path>
+							<Path>SFX/Footsteps_Gravel_M_003_43EADB1D.wem</Path>
 						</File>
 						<File Id="369210003" Language="SFX">
 							<ShortName>Footsteps_Grass_M_004.wav</ShortName>
-							<Path>SFX/Footsteps_Grass_M_004_5FFF8991.wem</Path>
+							<Path>SFX/Footsteps_Grass_M_004_AAEDB59D.wem</Path>
 						</File>
 						<File Id="389446310" Language="SFX">
 							<ShortName>Footsteps_Grass_M_001.wav</ShortName>
-							<Path>SFX/Footsteps_Grass_M_001_49265F53.wem</Path>
+							<Path>SFX/Footsteps_Grass_M_001_CFAE9897.wem</Path>
 						</File>
 						<File Id="541791125" Language="SFX">
 							<ShortName>Footsteps_Gravel_M_002.wav</ShortName>
-							<Path>SFX/Footsteps_Gravel_M_002_C3DC9F41.wem</Path>
+							<Path>SFX/Footsteps_Gravel_M_002_43EADB1D.wem</Path>
 						</File>
 						<File Id="806352642" Language="SFX">
 							<ShortName>Footsteps_Grass_M_002.wav</ShortName>
-							<Path>SFX/Footsteps_Grass_M_002_F8D10DF4.wem</Path>
+							<Path>SFX/Footsteps_Grass_M_002_F36C8B48.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{85EB8698-E13E-48E1-BF9B-9CD2665ED5AB}</DefaultSwitchValue>
@@ -76,21 +76,77 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1565383132" Name="SetFSToGravel" ObjectPath="\Events\MainCharacterEvents\SetFSToGravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\FootstepsMaterial\Gravel"/>
-					</ActionSetSwitch>
+				<Event Id="437752308" Name="PlayPunchHit" ObjectPath="\Events\MainCharacterEvents\PlayPunchHit" DurationType="OneShot" DurationMin="0.379418" DurationMax="0.750012">
+					<IncludedMemoryFiles>
+						<File Id="115825159" Language="SFX">
+							<ShortName>Punches_Sub1_002.wav</ShortName>
+							<Path>SFX/Punches_Sub1_002_2093E744.wem</Path>
+						</File>
+						<File Id="136922596" Language="SFX">
+							<ShortName>Punches_Cracks_002.wav</ShortName>
+							<Path>SFX/Punches_Cracks_002_2093E744.wem</Path>
+						</File>
+						<File Id="173573249" Language="SFX">
+							<ShortName>Punches_Splat_002.wav</ShortName>
+							<Path>SFX/Punches_Splat_002_2093E744.wem</Path>
+						</File>
+						<File Id="204686334" Language="SFX">
+							<ShortName>Punches_Sub1_001.wav</ShortName>
+							<Path>SFX/Punches_Sub1_001_2093E744.wem</Path>
+						</File>
+						<File Id="406673619" Language="SFX">
+							<ShortName>Punches_Body_001.wav</ShortName>
+							<Path>SFX/Punches_Body_001_2093E744.wem</Path>
+						</File>
+						<File Id="430131671" Language="SFX">
+							<ShortName>Punches_Slap_002.wav</ShortName>
+							<Path>SFX/Punches_Slap_002_2093E744.wem</Path>
+						</File>
+						<File Id="470980533" Language="SFX">
+							<ShortName>Punches_Sub2_002.wav</ShortName>
+							<Path>SFX/Punches_Sub2_002_2093E744.wem</Path>
+						</File>
+						<File Id="508679932" Language="SFX">
+							<ShortName>Punches_Splat_001.wav</ShortName>
+							<Path>SFX/Punches_Splat_001_2093E744.wem</Path>
+						</File>
+						<File Id="633703092" Language="SFX">
+							<ShortName>Punches_Slap_001.wav</ShortName>
+							<Path>SFX/Punches_Slap_001_2093E744.wem</Path>
+						</File>
+						<File Id="638508035" Language="SFX">
+							<ShortName>Punches_Splat_003.wav</ShortName>
+							<Path>SFX/Punches_Splat_003_2093E744.wem</Path>
+						</File>
+						<File Id="667934957" Language="SFX">
+							<ShortName>Punches_Cracks_001.wav</ShortName>
+							<Path>SFX/Punches_Cracks_001_2093E744.wem</Path>
+						</File>
+						<File Id="680311857" Language="SFX">
+							<ShortName>Punches_Body_002.wav</ShortName>
+							<Path>SFX/Punches_Body_002_2093E744.wem</Path>
+						</File>
+						<File Id="779400111" Language="SFX">
+							<ShortName>Punches_Splat_004.wav</ShortName>
+							<Path>SFX/Punches_Splat_004_2093E744.wem</Path>
+						</File>
+						<File Id="1006149003" Language="SFX">
+							<ShortName>Punches_Filler_001.wav</ShortName>
+							<Path>SFX/Punches_Filler_001_2093E744.wem</Path>
+						</File>
+						<File Id="1058417007" Language="SFX">
+							<ShortName>Punches_Sub2_001.wav</ShortName>
+							<Path>SFX/Punches_Sub2_001_2093E744.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="982447677" Name="FootstepsMaterial" ObjectPath="\Switches\Default Work Unit\FootstepsMaterial" GUID="{C7F23648-7EBD-42C8-A531-B526E3A4B6C3}">
 					<Switches>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\FootstepsMaterial\Grass" GUID="{85EB8698-E13E-48E1-BF9B-9CD2665ED5AB}"/>
-						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\FootstepsMaterial\Gravel" GUID="{8516E5C2-0D2D-464B-9552-9C6F24A2807A}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\FootstepsMaterial\Dirt" GUID="{8516E5C2-0D2D-464B-9552-9C6F24A2807A}"/>
 					</Switches>
-				</SwitchGroup>
-				<SwitchGroup Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\FootstepsMaterial\Gravel" GUID="{8516E5C2-0D2D-464B-9552-9C6F24A2807A}">
-					<Switches/>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
