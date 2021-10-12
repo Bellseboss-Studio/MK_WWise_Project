@@ -327,66 +327,17 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<BlendContainer Name="Punches" ID="{ED84FDB1-EE79-4210-A958-F950F0832BBC}" ShortID="422176628">
-					<PropertyList>
-						<Property Name="RenderEffect0" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-6</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
+				<BlendContainer Name="PunchesCombo" ID="{13D4F2B3-C07E-45FF-84A6-7E47191609FD}" ShortID="371846303">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-						</Reference>
-						<Reference Name="Effect0">
-							<Custom>
-								<Effect Name="Wwise Peak Limiter (Custom)" ID="{A9077E9F-6E11-4DDD-816F-E54BE5AE9F77}" ShortID="227532593" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
-									<PropertyList>
-										<Property Name="Threshold" Type="Real32" Value="-0.3"/>
-									</PropertyList>
-								</Effect>
-							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Slap" ID="{A2262A5B-75A6-48EB-983F-95A3164697F4}" ShortID="422985141">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{4F191DD0-DE31-4AD3-96DC-F2E6E6816425}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{04BE858D-9066-4A9D-A030-5B8D83E19FFC}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
+						<RandomSequenceContainer Name="Wooshes" ID="{0B8895E7-9F67-4B52-B34D-44B3CD3618F9}" ShortID="424121105">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -396,7 +347,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Punches_Slap_001" ID="{E27B1E67-0D3B-412C-9039-A65FB072C71A}" ShortID="124383138">
+								<Sound Name="Punches_Woosh_003" ID="{6CF5552F-EBCA-4048-A083-286333BCF748}" ShortID="829046837">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -406,20 +357,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punches_Slap_001" ID="{13D5D590-3143-4548-936F-A2337B1C6D87}">
+										<AudioFileSource Name="Punches_Woosh_003" ID="{E96D4EFA-E330-4CD0-BC0E-3EAC22BEB2A3}">
 											<Language>SFX</Language>
-											<AudioFile>Punches_Slap_001.wav</AudioFile>
+											<AudioFile>Punches_Woosh_003.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="633703092"/>
+												<MediaID ID="918275550"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Punches_Slap_001" ID="{13D5D590-3143-4548-936F-A2337B1C6D87}" Platform="Linked"/>
+										<ActiveSource Name="Punches_Woosh_003" ID="{E96D4EFA-E330-4CD0-BC0E-3EAC22BEB2A3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Punches_Slap_002" ID="{27EFE375-01FA-4D71-970E-ABF7EF88C2D3}" ShortID="1067055517">
+								<Sound Name="Punches_Woosh_004" ID="{9A670B56-94C6-4FBD-9FB4-8403F3949BAB}" ShortID="312578977">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -429,20 +380,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punches_Slap_002" ID="{99ADA6F7-D568-47F9-B2EE-09BFE1C501DA}">
+										<AudioFileSource Name="Punches_Woosh_004" ID="{9FDDEDEC-608D-41D8-AF16-9DF559B4C5A6}">
 											<Language>SFX</Language>
-											<AudioFile>Punches_Slap_002.wav</AudioFile>
+											<AudioFile>Punches_Woosh_004.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="430131671"/>
+												<MediaID ID="71647342"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Punches_Slap_002" ID="{99ADA6F7-D568-47F9-B2EE-09BFE1C501DA}" Platform="Linked"/>
+										<ActiveSource Name="Punches_Woosh_004" ID="{9FDDEDEC-608D-41D8-AF16-9DF559B4C5A6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Punches_Splat_001" ID="{2CA3C2FB-43D7-448D-82A3-080FB4FBC7EC}" ShortID="937617866">
+								<Sound Name="Punches_Woosh_005" ID="{AF2AD755-2327-46CB-BBED-02ED9F267258}" ShortID="146015302">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -452,20 +403,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punches_Splat_001" ID="{829B0E85-CDD0-48F8-B1A9-C7DA3C9777CD}">
+										<AudioFileSource Name="Punches_Woosh_005" ID="{2E0621FF-2673-4A1B-A328-0884D061D6C0}">
 											<Language>SFX</Language>
-											<AudioFile>Punches_Splat_001.wav</AudioFile>
+											<AudioFile>Punches_Woosh_005.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="508679932"/>
+												<MediaID ID="272120248"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Punches_Splat_001" ID="{829B0E85-CDD0-48F8-B1A9-C7DA3C9777CD}" Platform="Linked"/>
+										<ActiveSource Name="Punches_Woosh_005" ID="{2E0621FF-2673-4A1B-A328-0884D061D6C0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Punches_Splat_002" ID="{14212203-C7ED-4503-A6A3-94F2A662DBC9}" ShortID="254519025">
+								<Sound Name="Punches_Woosh_001" ID="{9FAC6DAB-47D8-43EF-8436-FF2EA25A553E}" ShortID="150308218">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -475,20 +426,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punches_Splat_002" ID="{C7FA6A69-6189-47F0-85EA-AA1179751904}">
+										<AudioFileSource Name="Punches_Woosh_001" ID="{2510A585-4E87-46BA-B930-0BEB48204C32}">
 											<Language>SFX</Language>
-											<AudioFile>Punches_Splat_002.wav</AudioFile>
+											<AudioFile>Punches_Woosh_001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="173573249"/>
+												<MediaID ID="879718730"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Punches_Splat_002" ID="{C7FA6A69-6189-47F0-85EA-AA1179751904}" Platform="Linked"/>
+										<ActiveSource Name="Punches_Woosh_001" ID="{2510A585-4E87-46BA-B930-0BEB48204C32}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Punches_Splat_003" ID="{B5A0486D-EF73-4AE2-A07C-1B1248C9D24B}" ShortID="857004997">
+								<Sound Name="Punches_Woosh_002" ID="{040C6B4B-3930-4FA7-8124-3300C0C34953}" ShortID="85004724">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -498,71 +449,115 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punches_Splat_003" ID="{743D8073-6A9B-44D0-A008-C64045F4AF25}">
+										<AudioFileSource Name="Punches_Woosh_002" ID="{7F88FCC8-BC0E-46A0-893A-4A4928E9B46D}">
 											<Language>SFX</Language>
-											<AudioFile>Punches_Splat_003.wav</AudioFile>
+											<AudioFile>Punches_Woosh_002.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="638508035"/>
+												<MediaID ID="681133755"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Punches_Splat_003" ID="{743D8073-6A9B-44D0-A008-C64045F4AF25}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punches_Splat_004" ID="{2D11E9FF-EA08-4CA9-A73E-8239DE09482B}" ShortID="376107422">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punches_Splat_004" ID="{100839F1-54AD-44B7-B283-57732EA6A6E4}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Splat_004.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="779400111"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Splat_004" ID="{100839F1-54AD-44B7-B283-57732EA6A6E4}" Platform="Linked"/>
+										<ActiveSource Name="Punches_Woosh_002" ID="{7F88FCC8-BC0E-46A0-893A-4A4928E9B46D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Body" ID="{DEB24193-54B2-4172-A582-AB701F821A7E}" ShortID="50811331">
+						<BlendContainer Name="PunchesImpact" ID="{ED84FDB1-EE79-4210-A958-F950F0832BBC}" ShortID="422176628">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{1861402E-0CFE-4194-BA5B-F37B800A9EC4}">
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{A3A86316-FFA2-4B84-ACA6-7CDC30D2E260}" ShortID="508246114">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Punch_Volume" ID="{2549A19D-963F-4D98-BE12-5882F563DF47}" WorkUnitID="{06F25E19-08A9-41DE-ACF2-5D4E077F1F7A}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FE7FA5F6-3381-4381-B628-5EFC0D3E1518}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
+													<Property Name="Flags" Type="int32" Value="3"/>
 												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.23076</XPos>
+														<YPos>0.15135</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>12</XPos>
+														<YPos>12.05247</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Peak Limiter (Custom)" ID="{A9077E9F-6E11-4DDD-816F-E54BE5AE9F77}" ShortID="227532593" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+											<PropertyList>
+												<Property Name="Threshold" Type="Real32" Value="-0.3"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Punches_Body_001" ID="{DCF77CA5-CC69-4022-B39A-4EDE1451A27E}" ShortID="191228855">
+								<RandomSequenceContainer Name="Slap" ID="{A2262A5B-75A6-48EB-983F-95A3164697F4}" ShortID="422985141">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4F191DD0-DE31-4AD3-96DC-F2E6E6816425}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{04BE858D-9066-4A9D-A030-5B8D83E19FFC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -572,20 +567,163 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punches_Body_001" ID="{A5FCE660-ADA8-4B63-A8CF-FEF04EC27CC0}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Body_001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="406673619"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Punches_Slap_001" ID="{E27B1E67-0D3B-412C-9039-A65FB072C71A}" ShortID="124383138">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Slap_001" ID="{13D5D590-3143-4548-936F-A2337B1C6D87}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Slap_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="633703092"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Slap_001" ID="{13D5D590-3143-4548-936F-A2337B1C6D87}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Slap_002" ID="{27EFE375-01FA-4D71-970E-ABF7EF88C2D3}" ShortID="1067055517">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Slap_002" ID="{99ADA6F7-D568-47F9-B2EE-09BFE1C501DA}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Slap_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="430131671"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Slap_002" ID="{99ADA6F7-D568-47F9-B2EE-09BFE1C501DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Splat_001" ID="{2CA3C2FB-43D7-448D-82A3-080FB4FBC7EC}" ShortID="937617866">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_001" ID="{829B0E85-CDD0-48F8-B1A9-C7DA3C9777CD}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="508679932"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_001" ID="{829B0E85-CDD0-48F8-B1A9-C7DA3C9777CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Splat_002" ID="{14212203-C7ED-4503-A6A3-94F2A662DBC9}" ShortID="254519025">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_002" ID="{C7FA6A69-6189-47F0-85EA-AA1179751904}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="173573249"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_002" ID="{C7FA6A69-6189-47F0-85EA-AA1179751904}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Splat_003" ID="{B5A0486D-EF73-4AE2-A07C-1B1248C9D24B}" ShortID="857004997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_003" ID="{743D8073-6A9B-44D0-A008-C64045F4AF25}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638508035"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_003" ID="{743D8073-6A9B-44D0-A008-C64045F4AF25}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Splat_004" ID="{2D11E9FF-EA08-4CA9-A73E-8239DE09482B}" ShortID="376107422">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_004" ID="{100839F1-54AD-44B7-B283-57732EA6A6E4}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="779400111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_004" ID="{100839F1-54AD-44B7-B283-57732EA6A6E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Body_001" ID="{A5FCE660-ADA8-4B63-A8CF-FEF04EC27CC0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punches_Body_002" ID="{E23084C6-77E4-49F9-8AE5-D14D21A36BA2}" ShortID="840873522">
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Body" ID="{DEB24193-54B2-4172-A582-AB701F821A7E}" ShortID="50811331">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1861402E-0CFE-4194-BA5B-F37B800A9EC4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
@@ -595,373 +733,503 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punches_Body_002" ID="{E62ADB11-D786-4180-9BAB-4D36E6D66CED}">
+										<Sound Name="Punches_Body_001" ID="{DCF77CA5-CC69-4022-B39A-4EDE1451A27E}" ShortID="191228855">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Body_001" ID="{A5FCE660-ADA8-4B63-A8CF-FEF04EC27CC0}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Body_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="406673619"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Body_001" ID="{A5FCE660-ADA8-4B63-A8CF-FEF04EC27CC0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Body_002" ID="{E23084C6-77E4-49F9-8AE5-D14D21A36BA2}" ShortID="840873522">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Body_002" ID="{E62ADB11-D786-4180-9BAB-4D36E6D66CED}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Body_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="680311857"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Body_002" ID="{E62ADB11-D786-4180-9BAB-4D36E6D66CED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Sub_1" ID="{0FB6109E-6095-42BE-9E1F-A79A183FE530}" ShortID="1070964874">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{53F11226-C918-4D94-99BE-162AE75FEBA7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{01A8EB6F-BF58-4317-AD42-AD95CB7E6011}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Punches_Sub1_001" ID="{A2EDC4E3-A04C-459B-BC8A-4F00D40A006B}" ShortID="900144916">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Sub1_001" ID="{50F89550-E51D-43EC-9AB9-1F775211B2B1}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Sub1_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="204686334"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Sub1_001" ID="{50F89550-E51D-43EC-9AB9-1F775211B2B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Sub1_002" ID="{F37C3DB6-F99E-42BE-8E96-1A11E0F148EA}" ShortID="110442413">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Sub1_002" ID="{20C506D1-DD95-4520-9AA2-2845F28D4704}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Sub1_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="115825159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Sub1_002" ID="{20C506D1-DD95-4520-9AA2-2845F28D4704}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<Sound Name="Punches_Filler_001" ID="{A167E372-41FA-4327-90CA-59C65E83121B}" ShortID="927287720">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A59AE592-21C6-4C71-897F-374B10BB484C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E5B744C8-4465-4C0D-B934-4EAF000E7E0D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Punches_Filler_001" ID="{FA8E99FA-DE22-45D4-9EB0-075E95A486E8}">
 											<Language>SFX</Language>
-											<AudioFile>Punches_Body_002.wav</AudioFile>
+											<AudioFile>Punches_Filler_001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="680311857"/>
+												<MediaID ID="1006149003"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Punches_Body_002" ID="{E62ADB11-D786-4180-9BAB-4D36E6D66CED}" Platform="Linked"/>
+										<ActiveSource Name="Punches_Filler_001" ID="{FA8E99FA-DE22-45D4-9EB0-075E95A486E8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Cracks" ID="{1C5A9685-AED2-49B9-9EB8-06983658F4AC}" ShortID="751671036">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8EB5EE3C-532D-4E5C-B381-1113673D03A4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{63001258-559E-4D6B-9029-9114ACE7D968}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Punches_Cracks_001" ID="{45CEEC64-77ED-477D-8A61-8B6ADAC2C895}" ShortID="508905074">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Cracks_001" ID="{AC96DC2B-7AC0-4156-98DE-7AC8A22C41EC}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Cracks_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="667934957"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Cracks_001" ID="{AC96DC2B-7AC0-4156-98DE-7AC8A22C41EC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Cracks_002" ID="{716CF6E5-DAEA-411E-ABE2-93EDF62B3545}" ShortID="355478156">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Cracks_002" ID="{6C9DBD02-473E-4BA0-A531-A6A847BB94B5}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Cracks_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="136922596"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Cracks_002" ID="{6C9DBD02-473E-4BA0-A531-A6A847BB94B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Sub_2" ID="{9EB256A9-DCC3-4B0F-825F-26C789C94734}" ShortID="749596214">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A5842863-D258-4715-9A66-CD15DB6786EE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A494FA26-6871-4026-AF97-3F7CD709928B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Punches_Sub2_001" ID="{404AA371-D620-4E3A-93C1-48AEC5270D21}" ShortID="76615560">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Sub2_001" ID="{A01A8F2E-063A-445A-B405-B26C04FA037D}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Sub2_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1058417007"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Sub2_001" ID="{A01A8F2E-063A-445A-B405-B26C04FA037D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Sub2_002" ID="{8A7CAF3E-5E59-4B17-8913-981EFC5BE508}" ShortID="941336915">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Sub2_002" ID="{031A481B-05F9-46C4-88C3-075F1225C43E}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Sub2_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="470980533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Sub2_002" ID="{031A481B-05F9-46C4-88C3-075F1225C43E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Splat" ID="{4815153E-700A-408C-BACE-25D55CD8CCAD}" ShortID="528119482">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E17A1F1A-F70A-4127-A80A-987E61AE9BCF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A13B2A97-B77E-4591-A6AC-3FA1AEA803C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Punches_Splat_001" ID="{49EFC11F-A463-43CC-9E35-5D579B5BB9F5}" ShortID="571137191">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_001" ID="{E8A9C3FC-ADC6-4611-9F4F-C381A0C90C46}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="508679932"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_001" ID="{E8A9C3FC-ADC6-4611-9F4F-C381A0C90C46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Splat_002" ID="{78B42F83-7985-4A53-B23C-2D9C197E1CAF}" ShortID="267649671">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_002" ID="{942985EE-A7E9-4860-A902-EA643D416C17}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="173573249"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_002" ID="{942985EE-A7E9-4860-A902-EA643D416C17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Splat_003" ID="{257B3A9B-CE5F-4D46-958D-88F2D47B34D1}" ShortID="777889047">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_003" ID="{08ABE786-FA33-4D45-BE7D-D1BECDCE3EC1}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638508035"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_003" ID="{08ABE786-FA33-4D45-BE7D-D1BECDCE3EC1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punches_Splat_004" ID="{11C6AFE3-6D9B-49EC-8A32-13E4E9BFB51C}" ShortID="95971532">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punches_Splat_004" ID="{F1BC5216-EEE5-43E9-AEF3-0827D6F77038}">
+													<Language>SFX</Language>
+													<AudioFile>Punches_Splat_004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="779400111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Punches_Splat_004" ID="{F1BC5216-EEE5-43E9-AEF3-0827D6F77038}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Sub_1" ID="{0FB6109E-6095-42BE-9E1F-A79A183FE530}" ShortID="1070964874">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{53F11226-C918-4D94-99BE-162AE75FEBA7}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{01A8EB6F-BF58-4317-AD42-AD95CB7E6011}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Punches_Sub1_001" ID="{A2EDC4E3-A04C-459B-BC8A-4F00D40A006B}" ShortID="900144916">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punches_Sub1_001" ID="{50F89550-E51D-43EC-9AB9-1F775211B2B1}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Sub1_001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="204686334"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Sub1_001" ID="{50F89550-E51D-43EC-9AB9-1F775211B2B1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punches_Sub1_002" ID="{F37C3DB6-F99E-42BE-8E96-1A11E0F148EA}" ShortID="110442413">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punches_Sub1_002" ID="{20C506D1-DD95-4520-9AA2-2845F28D4704}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Sub1_002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="115825159"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Sub1_002" ID="{20C506D1-DD95-4520-9AA2-2845F28D4704}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<Sound Name="Punches_Filler_001" ID="{A167E372-41FA-4327-90CA-59C65E83121B}" ShortID="927287720">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{A59AE592-21C6-4C71-897F-374B10BB484C}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{E5B744C8-4465-4C0D-B934-4EAF000E7E0D}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Punches_Filler_001" ID="{FA8E99FA-DE22-45D4-9EB0-075E95A486E8}">
-									<Language>SFX</Language>
-									<AudioFile>Punches_Filler_001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1006149003"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Punches_Filler_001" ID="{FA8E99FA-DE22-45D4-9EB0-075E95A486E8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<RandomSequenceContainer Name="Cracks" ID="{1C5A9685-AED2-49B9-9EB8-06983658F4AC}" ShortID="751671036">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{8EB5EE3C-532D-4E5C-B381-1113673D03A4}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{63001258-559E-4D6B-9029-9114ACE7D968}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Punches_Cracks_001" ID="{45CEEC64-77ED-477D-8A61-8B6ADAC2C895}" ShortID="508905074">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punches_Cracks_001" ID="{AC96DC2B-7AC0-4156-98DE-7AC8A22C41EC}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Cracks_001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="667934957"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Cracks_001" ID="{AC96DC2B-7AC0-4156-98DE-7AC8A22C41EC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punches_Cracks_002" ID="{716CF6E5-DAEA-411E-ABE2-93EDF62B3545}" ShortID="355478156">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punches_Cracks_002" ID="{6C9DBD02-473E-4BA0-A531-A6A847BB94B5}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Cracks_002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="136922596"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Cracks_002" ID="{6C9DBD02-473E-4BA0-A531-A6A847BB94B5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Sub_2" ID="{9EB256A9-DCC3-4B0F-825F-26C789C94734}" ShortID="749596214">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{A5842863-D258-4715-9A66-CD15DB6786EE}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{A494FA26-6871-4026-AF97-3F7CD709928B}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Punches_Sub2_001" ID="{404AA371-D620-4E3A-93C1-48AEC5270D21}" ShortID="76615560">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punches_Sub2_001" ID="{A01A8F2E-063A-445A-B405-B26C04FA037D}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Sub2_001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1058417007"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Sub2_001" ID="{A01A8F2E-063A-445A-B405-B26C04FA037D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punches_Sub2_002" ID="{8A7CAF3E-5E59-4B17-8913-981EFC5BE508}" ShortID="941336915">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punches_Sub2_002" ID="{031A481B-05F9-46C4-88C3-075F1225C43E}">
-											<Language>SFX</Language>
-											<AudioFile>Punches_Sub2_002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="470980533"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Punches_Sub2_002" ID="{031A481B-05F9-46C4-88C3-075F1225C43E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Splat" ID="{4815153E-700A-408C-BACE-25D55CD8CCAD}" ShortID="528119482">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{E17A1F1A-F70A-4127-A80A-987E61AE9BCF}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{A13B2A97-B77E-4591-A6AC-3FA1AEA803C3}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
-								</Reference>
-							</ReferenceList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
+						</BlendContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</BlendContainer>

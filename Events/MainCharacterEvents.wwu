@@ -8,7 +8,7 @@
 						<Action Name="" ID="{7F7A64C3-9AEF-4B9B-8C1F-B959CBC5164E}" ShortID="239467478">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Punches" ID="{ED84FDB1-EE79-4210-A958-F950F0832BBC}" WorkUnitID="{91697D7B-12DF-4B1C-A8B3-A1153D4122CB}"/>
+									<ObjectRef Name="PunchesImpact" ID="{ED84FDB1-EE79-4210-A958-F950F0832BBC}" WorkUnitID="{91697D7B-12DF-4B1C-A8B3-A1153D4122CB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -20,6 +20,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{D3B7C7DF-42C5-4C70-BB62-A2E18AECDC50}" WorkUnitID="{91697D7B-12DF-4B1C-A8B3-A1153D4122CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayPunch" ID="{F0A0585D-D99F-4660-AA91-28DBA87FDFFD}">
+					<ChildrenList>
+						<Action Name="" ID="{221EE07D-602D-40FF-89CB-0F0057BE7761}" ShortID="380605373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wooshes" ID="{0B8895E7-9F67-4B52-B34D-44B3CD3618F9}" WorkUnitID="{91697D7B-12DF-4B1C-A8B3-A1153D4122CB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

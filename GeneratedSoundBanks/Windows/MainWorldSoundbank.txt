@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	437752308	PlayPunchHit			\MainCharacterEvents\PlayPunchHit	
 	1712852617	PlayFootstep			\MainCharacterEvents\PlayFootstep	
+	2545596793	PlayPunch			\MainCharacterEvents\PlayPunch	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	982447677	FootstepsMaterial			\Default Work Unit\FootstepsMaterial	
@@ -9,28 +10,36 @@ Switch	ID	Name	Switch Group			Notes
 	2195636714	Dirt	FootstepsMaterial			
 	4248645337	Grass	FootstepsMaterial			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1863049124	Punch_Volume			\MainCharacter\Punch_Volume	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	39946139	Footsteps_Gravel_M_004	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Gravel_M_004_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Gravel\Footsteps_Gravel_M_004		6485
 	54966914	Footsteps_Gravel_M_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Gravel_M_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Gravel\Footsteps_Gravel_M_001		6559
+	71647342	Punches_Woosh_004	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Woosh_004_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\Wooshes\Punches_Woosh_004		6812
 	93354915	Footsteps_Grass_M_003	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Grass_M_003_B570D635.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Grass\Footsteps_Grass_M_003		3182
-	115825159	Punches_Sub1_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub1_002_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Sub_1\Punches_Sub1_002		3136
-	136922596	Punches_Cracks_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Cracks_002_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Cracks\Punches_Cracks_002		4867
-	173573249	Punches_Splat_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_002_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Slap\Punches_Splat_002		7316
-	204686334	Punches_Sub1_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub1_001_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Sub_1\Punches_Sub1_001		1058
+	115825159	Punches_Sub1_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub1_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Sub_1\Punches_Sub1_002		3042
+	136922596	Punches_Cracks_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Cracks_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Cracks\Punches_Cracks_002		4795
+	173573249	Punches_Splat_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Slap\Punches_Splat_002		7425
+	204686334	Punches_Sub1_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub1_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Sub_1\Punches_Sub1_001		900
 	262855682	Footsteps_Gravel_M_003	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Gravel_M_003_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Gravel\Footsteps_Gravel_M_003		7294
+	272120248	Punches_Woosh_005	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Woosh_005_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\Wooshes\Punches_Woosh_005		4356
 	369210003	Footsteps_Grass_M_004	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Grass_M_004_AAEDB59D.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Grass\Footsteps_Grass_M_004		2388
 	389446310	Footsteps_Grass_M_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Grass_M_001_CFAE9897.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Grass\Footsteps_Grass_M_001		2235
-	406673619	Punches_Body_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Body_001_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Body\Punches_Body_001		3884
-	430131671	Punches_Slap_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Slap_002_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Slap\Punches_Slap_002		3831
-	470980533	Punches_Sub2_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub2_002_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Sub_2\Punches_Sub2_002		2386
-	508679932	Punches_Splat_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_001_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Slap\Punches_Splat_001		8647
+	406673619	Punches_Body_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Body_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Body\Punches_Body_001		3665
+	430131671	Punches_Slap_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Slap_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Slap\Punches_Slap_002		3668
+	470980533	Punches_Sub2_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub2_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Sub_2\Punches_Sub2_002		2350
+	508679932	Punches_Splat_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Slap\Punches_Splat_001		8590
 	541791125	Footsteps_Gravel_M_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Gravel_M_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Gravel\Footsteps_Gravel_M_002		7463
-	633703092	Punches_Slap_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Slap_001_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Slap\Punches_Slap_001		3847
-	638508035	Punches_Splat_003	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_003_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Slap\Punches_Splat_003		5496
-	667934957	Punches_Cracks_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Cracks_001_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Cracks\Punches_Cracks_001		6365
-	680311857	Punches_Body_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Body_002_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Body\Punches_Body_002		3911
-	779400111	Punches_Splat_004	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_004_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Slap\Punches_Splat_004		7820
+	633703092	Punches_Slap_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Slap_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Slap\Punches_Slap_001		3733
+	638508035	Punches_Splat_003	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_003_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Slap\Punches_Splat_003		5887
+	667934957	Punches_Cracks_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Cracks_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Cracks\Punches_Cracks_001		6433
+	680311857	Punches_Body_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Body_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Body\Punches_Body_002		4143
+	681133755	Punches_Woosh_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Woosh_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\Wooshes\Punches_Woosh_002		5618
+	779400111	Punches_Splat_004	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Splat_004_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Slap\Punches_Splat_004		7786
 	806352642	Footsteps_Grass_M_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Footsteps_Grass_M_002_F36C8B48.wem		\Actor-Mixer Hierarchy\MainCharacter\Footsteps\Footsteps_Grass\Footsteps_Grass_M_002		2430
-	1006149003	Punches_Filler_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Filler_001_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Punches_Filler_001		3550
-	1058417007	Punches_Sub2_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub2_001_2093E744.wem		\Actor-Mixer Hierarchy\MainCharacter\Punches\Sub_2\Punches_Sub2_001		3312
+	879718730	Punches_Woosh_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Woosh_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\Wooshes\Punches_Woosh_001		4481
+	918275550	Punches_Woosh_003	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Woosh_003_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\Wooshes\Punches_Woosh_003		2849
+	1006149003	Punches_Filler_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Filler_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Punches_Filler_001		3664
+	1058417007	Punches_Sub2_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Windows\SFX\Punches_Sub2_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainCharacter\PunchesCombo\PunchesImpact\Sub_2\Punches_Sub2_001		3279
 

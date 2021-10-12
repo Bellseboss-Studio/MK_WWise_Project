@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1863915862">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1615758161" Language="SFX" Hash="2204913967">
+		<SoundBank Id="1615758161" Language="SFX" Hash="1041017101">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainWorldSoundbank</ObjectPath>
 			<ShortName>MainWorldSoundbank</ShortName>
 			<Path>MainWorldSoundbank.bnk</Path>
@@ -76,71 +76,98 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2545596793" Name="PlayPunch" ObjectPath="\Events\MainCharacterEvents\PlayPunch" DurationType="OneShot" DurationMin="0.309125" DurationMax="0.708729">
+					<IncludedMemoryFiles>
+						<File Id="71647342" Language="SFX">
+							<ShortName>Punches_Woosh_004.wav</ShortName>
+							<Path>SFX/Punches_Woosh_004_43EADB1D.wem</Path>
+						</File>
+						<File Id="272120248" Language="SFX">
+							<ShortName>Punches_Woosh_005.wav</ShortName>
+							<Path>SFX/Punches_Woosh_005_43EADB1D.wem</Path>
+						</File>
+						<File Id="681133755" Language="SFX">
+							<ShortName>Punches_Woosh_002.wav</ShortName>
+							<Path>SFX/Punches_Woosh_002_43EADB1D.wem</Path>
+						</File>
+						<File Id="879718730" Language="SFX">
+							<ShortName>Punches_Woosh_001.wav</ShortName>
+							<Path>SFX/Punches_Woosh_001_43EADB1D.wem</Path>
+						</File>
+						<File Id="918275550" Language="SFX">
+							<ShortName>Punches_Woosh_003.wav</ShortName>
+							<Path>SFX/Punches_Woosh_003_43EADB1D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="437752308" Name="PlayPunchHit" ObjectPath="\Events\MainCharacterEvents\PlayPunchHit" DurationType="OneShot" DurationMin="0.379418" DurationMax="0.750012">
 					<IncludedMemoryFiles>
 						<File Id="115825159" Language="SFX">
 							<ShortName>Punches_Sub1_002.wav</ShortName>
-							<Path>SFX/Punches_Sub1_002_2093E744.wem</Path>
+							<Path>SFX/Punches_Sub1_002_43EADB1D.wem</Path>
 						</File>
 						<File Id="136922596" Language="SFX">
 							<ShortName>Punches_Cracks_002.wav</ShortName>
-							<Path>SFX/Punches_Cracks_002_2093E744.wem</Path>
+							<Path>SFX/Punches_Cracks_002_43EADB1D.wem</Path>
 						</File>
 						<File Id="173573249" Language="SFX">
 							<ShortName>Punches_Splat_002.wav</ShortName>
-							<Path>SFX/Punches_Splat_002_2093E744.wem</Path>
+							<Path>SFX/Punches_Splat_002_43EADB1D.wem</Path>
 						</File>
 						<File Id="204686334" Language="SFX">
 							<ShortName>Punches_Sub1_001.wav</ShortName>
-							<Path>SFX/Punches_Sub1_001_2093E744.wem</Path>
+							<Path>SFX/Punches_Sub1_001_43EADB1D.wem</Path>
 						</File>
 						<File Id="406673619" Language="SFX">
 							<ShortName>Punches_Body_001.wav</ShortName>
-							<Path>SFX/Punches_Body_001_2093E744.wem</Path>
+							<Path>SFX/Punches_Body_001_43EADB1D.wem</Path>
 						</File>
 						<File Id="430131671" Language="SFX">
 							<ShortName>Punches_Slap_002.wav</ShortName>
-							<Path>SFX/Punches_Slap_002_2093E744.wem</Path>
+							<Path>SFX/Punches_Slap_002_43EADB1D.wem</Path>
 						</File>
 						<File Id="470980533" Language="SFX">
 							<ShortName>Punches_Sub2_002.wav</ShortName>
-							<Path>SFX/Punches_Sub2_002_2093E744.wem</Path>
+							<Path>SFX/Punches_Sub2_002_43EADB1D.wem</Path>
 						</File>
 						<File Id="508679932" Language="SFX">
 							<ShortName>Punches_Splat_001.wav</ShortName>
-							<Path>SFX/Punches_Splat_001_2093E744.wem</Path>
+							<Path>SFX/Punches_Splat_001_43EADB1D.wem</Path>
 						</File>
 						<File Id="633703092" Language="SFX">
 							<ShortName>Punches_Slap_001.wav</ShortName>
-							<Path>SFX/Punches_Slap_001_2093E744.wem</Path>
+							<Path>SFX/Punches_Slap_001_43EADB1D.wem</Path>
 						</File>
 						<File Id="638508035" Language="SFX">
 							<ShortName>Punches_Splat_003.wav</ShortName>
-							<Path>SFX/Punches_Splat_003_2093E744.wem</Path>
+							<Path>SFX/Punches_Splat_003_43EADB1D.wem</Path>
 						</File>
 						<File Id="667934957" Language="SFX">
 							<ShortName>Punches_Cracks_001.wav</ShortName>
-							<Path>SFX/Punches_Cracks_001_2093E744.wem</Path>
+							<Path>SFX/Punches_Cracks_001_43EADB1D.wem</Path>
 						</File>
 						<File Id="680311857" Language="SFX">
 							<ShortName>Punches_Body_002.wav</ShortName>
-							<Path>SFX/Punches_Body_002_2093E744.wem</Path>
+							<Path>SFX/Punches_Body_002_43EADB1D.wem</Path>
 						</File>
 						<File Id="779400111" Language="SFX">
 							<ShortName>Punches_Splat_004.wav</ShortName>
-							<Path>SFX/Punches_Splat_004_2093E744.wem</Path>
+							<Path>SFX/Punches_Splat_004_43EADB1D.wem</Path>
 						</File>
 						<File Id="1006149003" Language="SFX">
 							<ShortName>Punches_Filler_001.wav</ShortName>
-							<Path>SFX/Punches_Filler_001_2093E744.wem</Path>
+							<Path>SFX/Punches_Filler_001_43EADB1D.wem</Path>
 						</File>
 						<File Id="1058417007" Language="SFX">
 							<ShortName>Punches_Sub2_001.wav</ShortName>
-							<Path>SFX/Punches_Sub2_001_2093E744.wem</Path>
+							<Path>SFX/Punches_Sub2_001_43EADB1D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1863049124" Name="Punch_Volume" ObjectPath="\Game Parameters\MainCharacter\Punch_Volume"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="982447677" Name="FootstepsMaterial" ObjectPath="\Switches\Default Work Unit\FootstepsMaterial" GUID="{C7F23648-7EBD-42C8-A531-B526E3A4B6C3}">
 					<Switches>

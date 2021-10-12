@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06F25E19-08A9-41DE-ACF2-5D4E077F1F7A}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="MainCharacter" ID="{06F25E19-08A9-41DE-ACF2-5D4E077F1F7A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Punch_Volume" ID="{2549A19D-963F-4D98-BE12-5882F563DF47}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="6"/>
+						<Property Name="Max" Type="Real64" Value="12"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
