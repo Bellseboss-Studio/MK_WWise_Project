@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2710047957	HoverButton			\MainMenu\HoverButton	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1063690092	HoverButton	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\MiscSwords_LongKnife_M_018_1AAF388C.wem		\Actor-Mixer Hierarchy\MainMenu\HoverButton		5694
+

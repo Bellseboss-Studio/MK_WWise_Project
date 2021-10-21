@@ -177,5 +177,20 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="3604647259" Language="SFX" Hash="1002154790">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2710047957" Name="HoverButton" ObjectPath="\Events\MainMenu\HoverButton" DurationType="OneShot" DurationMin="0.429637" DurationMax="0.541309">
+					<IncludedMemoryFiles>
+						<File Id="1063690092" Language="SFX">
+							<ShortName>MiscSwords_LongKnife_M_018.wav</ShortName>
+							<Path>SFX/MiscSwords_LongKnife_M_018_1AAF388C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
