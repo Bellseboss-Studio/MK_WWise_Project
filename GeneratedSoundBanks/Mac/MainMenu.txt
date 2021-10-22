@@ -1,6 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	832920791	ClickButton			\MainMenu\ClickButton	
 	2710047957	HoverButton			\MainMenu\HoverButton	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1063690092	HoverButton	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\MiscSwords_LongKnife_M_018_1AAF388C.wem		\Actor-Mixer Hierarchy\MainMenu\HoverButton		5694
+	15389523	FX_Sword_05 [chan 1]	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\FX_Sword_05 [chan 1]_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Blades\FX_Sword_05 [chan 1]		8841
+	93173928	FX_Sword_06 [chan 1]	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\FX_Sword_06 [chan 1]_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Blades\FX_Sword_06 [chan 1]		8635
+	114364089	FX_Sword_01 [chan 1]	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\FX_Sword_01 [chan 1]_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Blades\FX_Sword_01 [chan 1]		8803
+	115825159	Punches_Sub1_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\Punches_Sub1_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Sub_1\Punches_Sub1_002		3042
+	172451903	FX_Sword_03 [chan 1]	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\FX_Sword_03 [chan 1]_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Blades\FX_Sword_03 [chan 1]		8995
+	173573249	Punches_Splat_002	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\Punches_Splat_002_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Splat\Punches_Splat_002		7425
+	204686334	Punches_Sub1_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\Punches_Sub1_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Sub_1\Punches_Sub1_001		900
+	508679932	Punches_Splat_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\Punches_Splat_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Splat\Punches_Splat_001		8590
+	575900136	FX_Sword_04 [chan 1]	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\FX_Sword_04 [chan 1]_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Blades\FX_Sword_04 [chan 1]		8890
+	638508035	Punches_Splat_003	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\Punches_Splat_003_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Splat\Punches_Splat_003		5887
+	718667594	HoverButton_01	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\GUI_Buttons_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\HoverButton_01		1801
+	779400111	Punches_Splat_004	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\Punches_Splat_004_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Splat\Punches_Splat_004		7786
+	855349102	FX_Sword_02 [chan 1]	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\FX_Sword_02 [chan 1]_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Blades\FX_Sword_02 [chan 1]		9294
+	1006149003	Punches_Filler_001	Y:\Documents\GitHub\FanGameMortalKombat_WwiseProject\MK_WWise_Project\.cache\Mac\SFX\Punches_Filler_001_43EADB1D.wem		\Actor-Mixer Hierarchy\MainMenu\ClickButton\Punches_Filler_001		3664
 

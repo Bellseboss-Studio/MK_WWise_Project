@@ -177,20 +177,81 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3604647259" Language="SFX" Hash="1002154790">
+		<SoundBank Id="3604647259" Language="SFX" Hash="2191993707">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2710047957" Name="HoverButton" ObjectPath="\Events\MainMenu\HoverButton" DurationType="OneShot" DurationMin="0.429637" DurationMax="0.541309">
+				<Event Id="832920791" Name="ClickButton" ObjectPath="\Events\MainMenu\ClickButton" DurationType="OneShot" DurationMin="0.961115" DurationMax="0.979740">
 					<IncludedMemoryFiles>
-						<File Id="1063690092" Language="SFX">
-							<ShortName>MiscSwords_LongKnife_M_018.wav</ShortName>
-							<Path>SFX/MiscSwords_LongKnife_M_018_1AAF388C.wem</Path>
+						<File Id="15389523" Language="SFX">
+							<ShortName>FX_Sword_05 [chan 1].wav</ShortName>
+							<Path>SFX/FX_Sword_05 [chan 1]_43EADB1D.wem</Path>
+						</File>
+						<File Id="93173928" Language="SFX">
+							<ShortName>FX_Sword_06 [chan 1].wav</ShortName>
+							<Path>SFX/FX_Sword_06 [chan 1]_43EADB1D.wem</Path>
+						</File>
+						<File Id="114364089" Language="SFX">
+							<ShortName>FX_Sword_01 [chan 1].wav</ShortName>
+							<Path>SFX/FX_Sword_01 [chan 1]_43EADB1D.wem</Path>
+						</File>
+						<File Id="115825159" Language="SFX">
+							<ShortName>Punches_Sub1_002.wav</ShortName>
+							<Path>SFX/Punches_Sub1_002_43EADB1D.wem</Path>
+						</File>
+						<File Id="172451903" Language="SFX">
+							<ShortName>FX_Sword_03 [chan 1].wav</ShortName>
+							<Path>SFX/FX_Sword_03 [chan 1]_43EADB1D.wem</Path>
+						</File>
+						<File Id="173573249" Language="SFX">
+							<ShortName>Punches_Splat_002.wav</ShortName>
+							<Path>SFX/Punches_Splat_002_43EADB1D.wem</Path>
+						</File>
+						<File Id="204686334" Language="SFX">
+							<ShortName>Punches_Sub1_001.wav</ShortName>
+							<Path>SFX/Punches_Sub1_001_43EADB1D.wem</Path>
+						</File>
+						<File Id="508679932" Language="SFX">
+							<ShortName>Punches_Splat_001.wav</ShortName>
+							<Path>SFX/Punches_Splat_001_43EADB1D.wem</Path>
+						</File>
+						<File Id="575900136" Language="SFX">
+							<ShortName>FX_Sword_04 [chan 1].wav</ShortName>
+							<Path>SFX/FX_Sword_04 [chan 1]_43EADB1D.wem</Path>
+						</File>
+						<File Id="638508035" Language="SFX">
+							<ShortName>Punches_Splat_003.wav</ShortName>
+							<Path>SFX/Punches_Splat_003_43EADB1D.wem</Path>
+						</File>
+						<File Id="779400111" Language="SFX">
+							<ShortName>Punches_Splat_004.wav</ShortName>
+							<Path>SFX/Punches_Splat_004_43EADB1D.wem</Path>
+						</File>
+						<File Id="855349102" Language="SFX">
+							<ShortName>FX_Sword_02 [chan 1].wav</ShortName>
+							<Path>SFX/FX_Sword_02 [chan 1]_43EADB1D.wem</Path>
+						</File>
+						<File Id="1006149003" Language="SFX">
+							<ShortName>Punches_Filler_001.wav</ShortName>
+							<Path>SFX/Punches_Filler_001_43EADB1D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2710047957" Name="HoverButton" ObjectPath="\Events\MainMenu\HoverButton" DurationType="OneShot" DurationMin="0.115371" DurationMax="0.145359">
+					<IncludedMemoryFiles>
+						<File Id="718667594" Language="SFX">
+							<ShortName>GUI_Buttons_001.wav</ShortName>
+							<Path>SFX/GUI_Buttons_001_43EADB1D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3012300438">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

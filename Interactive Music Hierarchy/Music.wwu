@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F661194F-1418-489F-BC9F-ABEE098ECD91}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{F661194F-1418-489F-BC9F-ABEE098ECD91}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Music" ID="{AB63FF12-D0D1-4B8F-8AC3-934D615E3EC8}" ShortID="365760908">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="MainMenuMX" ID="{27C916DC-BEBA-4E0E-AFE6-981A4563DEE1}" ShortID="833566522">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="157585.692835964"/>
+								<Property Name="Tempo" Type="Real64" Value="80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C9BB22B-B18B-4AA0-99E3-D0082DE2CAF6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MaunMenuMX" ID="{99C3F30C-F0D3-4207-B17F-859CEA2D6A1E}" ShortID="546140904">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{1CB1D71C-8B08-4452-9315-A134F5308703}">
+												<Conversion Name="MusicConvertion (Custom)" ID="{0118F9E6-B551-492A-8F95-AA3662BF7F25}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">44100</Value>
+																<Value Platform="Mac">44100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">2</Value>
+																<Value Platform="Mac">2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{CD5523CC-030C-488C-9FCC-9D3742FF7EFE}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{769AB59A-F131-4BEC-A570-B355E83A3ECE}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3EC856E6-3D3C-4446-AED9-ADF1B45E1E73}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaunMenuMX" ID="{C6B37280-AFC3-4BC0-A43E-263C4AEB3BC7}">
+											<Language>SFX</Language>
+											<AudioFile>MaunMenuMX.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="620435471"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9A35AE93-E7C9-4F89-8236-C8E7D9FB5D6F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B5948DD6-9A9E-43E1-B6A2-A7236A70D963}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="MaunMenuMX" ID="{D254F97B-5BF3-491E-839F-88FA503EBD32}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="157500"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="MaunMenuMX" ID="{C6B37280-AFC3-4BC0-A43E-263C4AEB3BC7}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{0F995F96-6529-4B17-B1DB-06BE1CB7C811}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="4585.69283596414"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{27EFCF27-F7AB-4BE8-ACA4-538FACC9597C}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="142585.692835964"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{41A5F957-5309-4EF2-9985-419193608D52}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{106D0A94-E4E8-4989-BC46-C3BE32E3CC08}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{931BCEC1-AF56-4ACE-A4BC-34514791E604}" ShortID="939619189">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{4EB8D6DC-40FE-4F09-A25F-8BFD32B29317}" ShortID="251477819">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MainMenuMX" ID="{27C916DC-BEBA-4E0E-AFE6-981A4563DEE1}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
